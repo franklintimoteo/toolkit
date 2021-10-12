@@ -1,0 +1,13 @@
+[Unit]
+Description=Protocol Sender (PS)
+After=network-online.target dietpi-boot.service
+
+[Service]
+Type=simple
+User=dietpi
+ExecStart=/usr/local/bin/ngrok start protocolsender
+ExecStartPost=/home/dietpi/Documents/ferramentas-py/sender-protocol-ngrok.py
+ExecStop=/usr/bin/killall ngrok
+
+[Install]
+WantedBy=multi-user.target
