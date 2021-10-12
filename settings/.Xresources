@@ -1,0 +1,57 @@
+! special
+*.foreground:   #d8cede
+*.background:   #0e0911
+*.cursorColor:  #d8cede
+
+! black
+*.color0:       #18111b
+*.color8:       #efa0b7
+
+! red
+*.color1:       #221927
+*.color9:       #cd62f3
+
+! green
+*.color2:       #675370
+*.color10:      #d85083
+
+! yellow
+*.color3:       #513f5a
+*.color11:      #ec799f
+
+! blue
+*.color4:       #745b80
+*.color12:      #4aaada
+
+! magenta
+*.color5:       #9a7ea8
+*.color13:      #5da295
+
+! cyan
+*.color6:       #beacc7
+*.color14:      #e1a950
+
+! white
+*.color7:       #e7e0ea
+*.color15:      #4eaddd
+
+
+
+!! URxvt Appearance
+URxvt.font: xft:Hack Nerd Font Mono:pixelsize=10:antialias=True:autohint=True, xft:Noto Emoji
+!URxvt.font: xft:Noto Sans Mono:size=8
+!!URxvt.boldFont: NotoSansMono-Bold
+!!URxvt.italicFont: NotoSansMono-Regular
+!!URxvt.boldItalicfont: NotoSansMono-Regular
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.internalBorder: 14
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.depth: 24
+URxvt.iso14755: false
